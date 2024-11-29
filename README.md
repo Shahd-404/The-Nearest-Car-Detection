@@ -1,20 +1,36 @@
-"# The-Nearest-Car-Detection" # The Nearest Car Detection
+### How it works:
+- **`![The Nearest Car Detection](./The_Nearest_Car.gif)`**: This Markdown syntax will display the GIF when the `README.md` file is rendered. It assumes the `The_Nearest_Car.gif` file is in the same directory as the `README.md` file.
+- If the GIF is in another folder (e.g., inside a folder called `assets`), you can adjust the path like so: `![The Nearest Car Detection](./assets/The_Nearest_Car.gif)`.
 
-A Python project using YOLOv5 to detect the nearest car in a video stream and alert the user with voice notifications. The project calculates the distance of detected cars based on their size in the video frame and provides real-time feedback.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+# Nearest Car Detection Project
+
+This project implements a system to detect and identify the nearest car within a video frame using computer vision techniques.
+
+## Project Overview
+
+* **Purpose:** Detect and identify the nearest car in a video and provide audio alerts based on proximity.
+* **Technologies Used:**
+    * Python
+    * PyTorch
+    * OpenCV
+    * YOLOv5 (pre-trained object detection model)
+    * gtts (optional: for text-to-speech audio alerts)
+* **Functionality:**
+    * Processes video frames to detect cars using YOLOv5.
+    * Calculates the distance to the closest detected car based on its bounding box width.
+    * Provides visual cues (bounding box and distance overlay on the video frame).
+    * Optionally plays audio alerts when a car is within a predefined distance threshold (e.g., 10 meters, 5 meters).
 
 ## Installation
 
-To set up and run this project on your local machine, follow the steps below:
+**Prerequisites:**
 
-### 1. Clone the Repository
+* Python 3.x with necessary libraries (PyTorch, OpenCV, etc.) installed. Refer to official documentation for installation instructions.
+* A YOLOv5 model (e.g., `yolov5s`) downloaded. Installation instructions can be found at https://github.com/ultralytics/yolov5.
+
+**Installing Dependencies:**
 
 ```bash
-git clone https://github.com/your-username/The-Nearest-Car-Detection.git
-cd The-Nearest-Car-Detection
+pip install torch torchvision opencv-python gtts (optional for audio alerts)
+
