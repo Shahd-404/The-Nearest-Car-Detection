@@ -1,9 +1,6 @@
-### How it works:
-- **`![The Nearest Car Detection](./The_Nearest_Car.gif)`**: This Markdown syntax will display the GIF when the `README.md` file is rendered. It assumes the `The_Nearest_Car.gif` file is in the same directory as the `README.md` file.
-- If the GIF is in another folder (e.g., inside a folder called `assets`), you can adjust the path like so: `![The Nearest Car Detection](./assets/The_Nearest_Car.gif)`.
-
-
 # Nearest Car Detection Project
+
+![Blue Green Minimalist Tennis Intro Youtube Video](./Blue%20Green%20Minimalist%20Tennis%20Intro%20Youtube%20Video.gif)
 
 This project implements a system to detect and identify the nearest car within a video frame using computer vision techniques.
 
