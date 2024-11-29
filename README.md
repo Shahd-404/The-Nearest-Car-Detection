@@ -1,6 +1,6 @@
 # Nearest Car Detection Project
 
-![Blue Green Minimalist Tennis Intro Youtube Video](./Blue%20Green%20Minimalist%20Tennis%20Intro%20Youtube%20Video.gif)
+![Blue Green Minimalist Tennis Intro Youtube Video](./Blue Green Minimalist Tennis Intro Youtube Video.gif)
 
 This project implements a system to detect and identify the nearest car within a video frame using computer vision techniques.
 
