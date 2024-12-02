@@ -1,6 +1,6 @@
 # Nearest Car Detection Project
 
-[![Detecting & Measuring the Nearest Car in Real-Time with YOLOv5](https://img.youtube.com/vi/cXDXPwAKkP0/0.jpg)](https://www.youtube.com/watch?v=cXDXPwAKkP0)
+![Description of GIF](./images/The_nearst_car.gif)
 
 This project implements a system to detect and identify the nearest car within a video frame using computer vision techniques.
 
