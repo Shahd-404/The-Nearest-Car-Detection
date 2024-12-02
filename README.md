@@ -1,6 +1,6 @@
 # Nearest Car Detection Project
 
-![Description of GIF](./images/The_nearst_car.gif)
+![Nearest Car GIF](The_nearst_car.gif)
 
 This project implements a system to detect and identify the nearest car within a video frame using computer vision techniques.
 
